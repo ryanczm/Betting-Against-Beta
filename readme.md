@@ -1,5 +1,8 @@
+# Betting Against Beta
 
-This post is a project based off Frazzini & Pedersen's 2006 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line. I reconstruct the BAB factors and do some basic analysis, learning introductory concepts in factor investing. The code is  [here](https://github.com/ryanczm/HFT-in-LOB).
+The utility functions are in `factors.py`. The main notebook is `bab.ipynb`.
+
+This post is a project based off Frazzini & Pedersen's 2006 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line. I reconstruct the BAB factors and do some basic analysis, learning introductory concepts in factor investing. 
 
 To be honest, it is difficult to do anything innovate over what the paper has already covered, and I think I have enough confidence to turn to trading projects already.
 
