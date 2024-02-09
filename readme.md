@@ -39,7 +39,7 @@ First off, Novy-Marx states that this paper built upon Black's 1972 argument tha
 
 As expected, the $R^2$ is low implying a flat naive line (predicting $\mu$) would be almost an equally good fit. I then calculate the betas according to FP's methodology:
 
-$\hat{\beta}^{ts}_{i}=\hat{\rho}\frac{\hat{\sigma}_i}{\hat{\sigma}_m}$
+$$\hat{\beta}^{ts}_{i}=\hat{\rho}\frac{\hat{\sigma}_i}{\hat{\sigma}_m}$$
 
 Rather than estimating $\beta$ via a regression directly, FP use the rolling 5Y correlation and 1Y rolling volatilities with 1-day log returns and 3-day log returns respectively. This is to account for non-synchronous trading which is the idea that stocks with different trading frequencies have prices react at different speeds. I'm not entirely sure how this works, however. These betas are shrunk cross-sectionally with the cross-sectional mean.
 
