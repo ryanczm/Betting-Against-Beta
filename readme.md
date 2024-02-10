@@ -6,10 +6,6 @@ This post is a project based off Frazzini & Pedersen's 2013 paper, which demonst
 
 To be honest, it is difficult to do anything innovate over what the paper has already covered, and I think I have enough confidence to turn to trading projects already.
 
-<!-- <br>
-<p align='center'>
-<img src="images/osc.png" style="width:75%;"/>
-</p align='center'> -->
 
 # Paper Overview
 
@@ -127,6 +123,7 @@ The $R^2$ is very low, implying majority of variance is not captured by the Fama
         <img src="images/6a.png" style="margin-right: 5px; width:50%">
         <img src="images/6b.png" style="width:50%">
     </div>
+    
 </p align='center'>
 Does this imply that low beta stocks have higher operating profit and and invest more conservatively? This makes sense, since one could argue low beta stocks are from more defensive industries like utilities & consumer staples. Novy-Marx argues the strong returns are overestimated due to transaction costs.
 
@@ -135,6 +132,8 @@ Does this imply that low beta stocks have higher operating profit and and invest
 <br>
 <p align='center'>
     <img src="images/6.png" style="width:75%">
+    <figcaption>Returns of BAB and FF5 factor model.</figcaption>
+
 </p align='center'>
 
 Given the rank-weights are adjusted via leverage to make BAB have zero beta, it should have a fairly flat slope when regressed against market returns, which checks out.
@@ -142,6 +141,15 @@ Given the rank-weights are adjusted via leverage to make BAB have zero beta, it 
 <br>
 <p align='center'>
 <img src="images/7.png" style="width:75%">
+<figcaption>BAB vs Market returns scatterplot.</figcaption>
+
+</p align='center'>
+
+<br>
+<p align='center'>
+<img src="images/7b.png" style="width:75%">
+<figcaption>Factor returns correlation matrix.</figcaption>
+
 </p align='center'>
 
 # Overweight in Small Cap Stocks
